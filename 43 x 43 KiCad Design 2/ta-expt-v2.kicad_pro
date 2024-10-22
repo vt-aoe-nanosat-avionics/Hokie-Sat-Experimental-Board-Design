@@ -862,7 +862,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ta-expt.net",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
