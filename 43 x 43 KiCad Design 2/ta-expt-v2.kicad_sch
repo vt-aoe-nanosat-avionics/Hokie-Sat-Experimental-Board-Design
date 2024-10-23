@@ -10803,6 +10803,17 @@
 		)
 		(uuid "eee3bc59-b526-4bda-bbe4-c0d63b604cdf")
 	)
+	(label "QUADSPI_BK2_NCS"
+		(at 241.3 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1ab6052-bd03-4672-b66a-809da49d53e6")
+	)
 	(label "NRST"
 		(at 165.1 151.13 180)
 		(fields_autoplaced yes)
@@ -10825,17 +10836,6 @@
 		)
 		(uuid "f99dbb57-458f-416d-b349-cb1ff59cec98")
 	)
-	(label "QUADSPI_BK1_NCS"
-		(at 193.04 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa4d1905-b072-4028-bce6-f4c280457215")
-	)
 	(label "VDD_FILT"
 		(at 185.42 107.95 0)
 		(fields_autoplaced yes)
@@ -10847,7 +10847,7 @@
 		)
 		(uuid "fb36958e-cb52-4c3a-ac2e-4233a5b0bbc1")
 	)
-	(label "QUADSPI_BK1_NCS"
+	(label "QUADSPI_BK2_NCS"
 		(at 279.4 40.64 180)
 		(fields_autoplaced yes)
 		(effects
