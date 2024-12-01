@@ -5370,7 +5370,7 @@
 		(descr "LQFP100-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "151aa912-2ed1-4e80-89d7-023978cd4644")
 			(effects
@@ -5381,7 +5381,7 @@
 			)
 		)
 		(property "Value" "STM32L496VGT3"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "dd653259-ab09-422b-84d4-c2fbb90ab7b0")
@@ -5393,7 +5393,7 @@
 			)
 		)
 		(property "Footprint" "QFP50P1600X1600X160-100N"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec30fbcc-4d22-46c1-8f39-6c52aa12237c")
@@ -5405,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l496ag.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0872adc-9b0f-4427-8ba0-50258f5191d8")
@@ -5417,7 +5417,7 @@
 			)
 		)
 		(property "Description" "STMICROELECTRONICS - STM32L496VGT3 - MCU, ARM CORTEX-M4, 80MHZ, LQFP-100"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2318436f-1f65-44e6-8c7f-43c9ac697659")
@@ -5665,7 +5665,7 @@
 			(uuid "66b1351b-87be-4cc9-b955-2c140201381d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6d5ced06-cc67-4d00-97ff-37566c2504d2")
 			(effects
@@ -25621,14 +25621,6 @@
 		(uuid "0fdda561-e54f-453e-b4ab-105c2d6f7f7d")
 	)
 	(segment
-		(start 141.6305 103.9745)
-		(end 141.6305 102.7805)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "13d7ea4a-2745-4112-9878-08f957f537cf")
-	)
-	(segment
 		(start 143.2 103.35)
 		(end 143.2 102.4)
 		(width 0.127)
@@ -25829,12 +25821,20 @@
 		(uuid "7c0ba681-3f5b-4f6d-89ed-847f4645f06e")
 	)
 	(segment
+		(start 141.6305 103.9745)
+		(end 141.6305 102.7805)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "8999360a-bd52-4e74-a2ee-80e64a4c8547")
+	)
+	(segment
 		(start 140.955 104.65)
 		(end 141.6305 103.9745)
 		(width 0.127)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "8454b10b-75ff-46ac-baa1-f0f18a28027b")
+		(uuid "8dd1e70c-969d-46d3-8e61-eefd88d3590f")
 	)
 	(segment
 		(start 166.85 114.3)
@@ -25851,6 +25851,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "968fca63-7b74-40b3-b8e8-6da5d86f2d92")
+	)
+	(segment
+		(start 141.6305 102.7805)
+		(end 141.35 102.5)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "974962a4-b558-42c8-978d-1c2fd16136a2")
 	)
 	(segment
 		(start 163.1 104.675)
@@ -25931,14 +25939,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "bc906997-38a1-412e-999c-6e69068837d1")
-	)
-	(segment
-		(start 141.6305 102.7805)
-		(end 141.35 102.5)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "bcbf7a6a-e4a7-4011-b231-05868f868c1d")
 	)
 	(segment
 		(start 147.5 100.262)
